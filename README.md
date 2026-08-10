@@ -27,15 +27,15 @@ Die Inhalte entstehen durch eigene Recherche, Lernprojekte und den Aufbau praxis
 
 ## 🎯 Ziele der Knowledge Base
 
-- ⚡ **Schnellere Lösungszeiten (MTTR)** durch dokumentierte, geprüfte Lösungswege
-- 📚 **Wissenssicherung** – Erfahrungswissen geht nicht verloren, wenn es aufgeschrieben ist
-- 🔁 **Konsistenz** – gleiche Probleme werden nach dem gleichen Standard gelöst
-- 🧑‍🏫 **Onboarding-Hilfe** für neue Support-Mitarbeitende
-- 🛠️ **Selbstlernressource** zur Vertiefung von Windows-, M365-, Netzwerk- und Scripting-Kenntnissen
+- **Schnellere Lösungszeiten (MTTR)** durch dokumentierte, geprüfte Lösungswege
+- **Wissenssicherung** – Erfahrungswissen geht nicht verloren, wenn es aufgeschrieben ist
+- **Konsistenz** – gleiche Probleme werden nach dem gleichen Standard gelöst
+- **Onboarding-Hilfe** für neue Support-Mitarbeitende
+- **Selbstlernressource** zur Vertiefung von Windows-, M365-, Netzwerk- und Scripting-Kenntnissen
 
 ---
 
-## 🗂️ Struktur des Repositories
+## Struktur des Repositories
 
 ```
 ICT-Service-Desk-Knowledge-Base/
@@ -92,7 +92,7 @@ ICT-Service-Desk-Knowledge-Base/
 
 ---
 
-## 🔧 Inhaltliche Schwerpunkte
+## Inhaltliche Schwerpunkte
 
 ### 🩺 1. Troubleshooting-Guides
 Strukturierte Schritt-für-Schritt-Anleitungen zur Fehlerdiagnose und -behebung, u. a.:
@@ -141,7 +141,7 @@ Skripte und Cmdlet-Sammlungen zum Lernen und Anpassen:
 
 ---
 
-## 🚀 Verwendung
+## Verwendung
 
 1. Repository klonen oder herunterladen:
    ```bash
@@ -155,7 +155,7 @@ Skripte und Cmdlet-Sammlungen zum Lernen und Anpassen:
 
 ---
 
-## 🧭 Konventionen & Formatstandards
+## Konventionen & Formatstandards
 
 Damit die Knowledge Base einheitlich und durchsuchbar bleibt, folgen alle Dokumente diesem Schema:
 
@@ -171,7 +171,7 @@ Damit die Knowledge Base einheitlich und durchsuchbar bleibt, folgen alle Dokume
 
 ---
 
-## 🤝 Mitwirken
+## Mitwirken
 
 Feedback, Korrekturen und Ergänzungen sind willkommen! So kannst du beitragen:
 
@@ -185,19 +185,19 @@ Bitte bestehende Formatkonventionen (siehe oben) einhalten.
 
 ---
 
-## ⚖️ Haftungsausschluss
+## Haftungsausschluss
 
 Diese Knowledge Base dient ausschliesslich zu Informations- und Lernzwecken. Sämtliche Inhalte sind allgemein gehalten und enthalten keine vertraulichen Unternehmens- oder Kundendaten. Für die Richtigkeit, Vollständigkeit oder Aktualität der Inhalte wird keine Gewähr übernommen. Der Einsatz von Skripten und Konfigurationen in produktiven Umgebungen erfolgt auf eigene Verantwortung.
 
 ---
 
-## 📄 Lizenz
+## Lizenz
 
 Dieses Projekt steht unter der [MIT-Lizenz](LICENSE) – freie Nutzung, Veränderung und Weitergabe unter Namensnennung.
 
 ---
 
-## 👤 Über dieses Repository
+## Über dieses Repository
 
 Diese Knowledge Base wird kontinuierlich gepflegt und erweitert, mit Fokus auf Windows-Administration, Microsoft 365, Netzwerktechnik und PowerShell-Automatisierung.
 
