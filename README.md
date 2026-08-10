@@ -162,10 +162,15 @@ Damit die Knowledge Base einheitlich und durchsuchbar bleibt, folgen alle Dokume
 | Element | Beschreibung |
 |---|---|
 | **Titel** | Klar benannt, Thema sofort erkennbar |
+| **Tags** | Schlagwörter zur Kategorisierung und Suche (z. B. #outlook, #vpn) |
 | **Kurzbeschreibung** | 1–2 Sätze zum Anwendungsfall |
 | **Voraussetzungen** | Benötigte Rechte, Tools, Zugänge |
+| **Inhaltsverzeichnis** | Nummerierte Liste am Dokumentanfang mit Anker-Links zu den einzelnen Abschnitten |
+| **Priorität (P1–P4)** | 	Dringlichkeitsstufe des Problems für die Ticket-Priorisierung |
+| **Symptom** | 	Konkrete Beschreibung des beobachtbaren Fehlerbilds, separat von der allgemeinen Kurzbeschreibung |
 | **Schritt-für-Schritt-Anleitung** | Nummeriert, nachvollziehbar |
-| **Häufige Fehler** | Bekannte Stolpersteine |
+| **Eskalationskriterien / Eskalation** | Klare Kriterien, wann ein Fall nicht mehr im 1st-Level gelöst werden kann, sowie das zuständige Team |
+| **Remote-Support-Hinweise** | Einschätzung, welche Schritte remote möglich sind und wann Vor-Ort-Support nötig ist |
 | **Verwandte Themen** | Querverweise auf andere Dokumente |
 | **Letzte Aktualisierung** | Datum der letzten Überarbeitung |
 
