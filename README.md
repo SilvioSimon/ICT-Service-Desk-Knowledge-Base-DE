@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🖥️ ICT Service Desk Knowledge Base (Deutsch)
+# ICT Service Desk Knowledge Base (Deutsch)
 
 **Persönliche Wissensdatenbank für den Aufbau von IT-Support-Know-how**
 
@@ -25,7 +25,7 @@ Die Inhalte entstehen durch eigene Recherche, Lernprojekte und den Aufbau praxis
 
 ---
 
-## 🎯 Ziele der Knowledge Base
+## Ziele der Knowledge Base
 
 - **Schnellere Lösungszeiten (MTTR)** durch dokumentierte, geprüfte Lösungswege
 - **Wissenssicherung** – Erfahrungswissen geht nicht verloren, wenn es aufgeschrieben ist
@@ -94,7 +94,7 @@ ICT-Service-Desk-Knowledge-Base/
 
 ## Inhaltliche Schwerpunkte
 
-### 🩺 1. Troubleshooting-Guides
+### 1. Troubleshooting-Guides
 Strukturierte Schritt-für-Schritt-Anleitungen zur Fehlerdiagnose und -behebung, u. a.:
 - Windows-Bluescreens, Boot-Probleme, Performance-Issues
 - Drucker- und Peripheriefehler (Treiber, Spooler, Netzwerkdrucker)
@@ -104,35 +104,35 @@ Strukturierte Schritt-für-Schritt-Anleitungen zur Fehlerdiagnose und -behebung,
 
 Jeder Guide folgt einem einheitlichen Aufbau: **Symptom → Ursachenanalyse → Lösungsschritte → Eskalationskriterien**.
 
-### 📋 2. Standard Operating Procedures (SOPs)
+### 2. Standard Operating Procedures (SOPs)
 Klar definierte, wiederholbare Prozesse für Routineaufgaben:
 - On- und Offboarding von Mitarbeitenden (Accounts, Hardware, Zugriffsrechte)
 - Passwort-Reset- und Account-Entsperrungsverfahren
 - Ticket-Priorisierung und Eskalationswege (ITIL-orientiert)
 - Asset- und Lizenzverwaltung
 
-### 🪟 3. Windows-Administration
+### 3. Windows-Administration
 - Active Directory (Benutzer, Gruppen, OUs)
 - Gruppenrichtlinien (GPOs) – Erstellung, Troubleshooting, Best Practices
 - Client-Imaging und Softwareverteilung
 - Patch- und Updatemanagement (WSUS)
 - Registry-Eingriffe und Systemreparatur
 
-### ☁️ 4. Microsoft 365
+### 4. Microsoft 365
 - Exchange Online: Postfächer, Verteilerlisten, Freigaben
 - Teams-Administration und Troubleshooting
 - SharePoint & OneDrive: Berechtigungen, Synchronisationsprobleme
 - Intune: Geräteregistrierung, Compliance-Richtlinien, Autopilot
 - Lizenzmanagement und MFA-Konfiguration
 
-### 🌐 5. Netzwerktechnik
+### 5. Netzwerktechnik
 - TCP/IP-Grundlagen und Subnetting
 - DNS- und DHCP-Troubleshooting
 - VPN-Einrichtung und -Fehlerbehebung
 - WLAN-Diagnose
 - Firewall- und Portfreigaben-Grundlagen
 
-### ⚙️ 6. PowerShell
+### 6. PowerShell
 Skripte und Cmdlet-Sammlungen zum Lernen und Anpassen:
 - Automatisierte Benutzerverwaltung in AD und Entra ID
 - Bulk-Operationen in Microsoft 365
