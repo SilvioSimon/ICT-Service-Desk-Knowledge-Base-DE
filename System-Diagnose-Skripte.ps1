@@ -1,17 +1,17 @@
-# ============================================================
-# SYSTEM DIAGNOSTICS SCRIPT
-# ============================================================
-# Purpose:
-# Collect basic Windows system information for troubleshooting.
+# ======================
+# SYSTEMDIAGNOSE-SKRIPT
+# ======================
+# Zweck:
+# Grundlegende Windows-Systeminformationen zur Fehlersuche sammeln.
 #
-# This script is intended for learning and diagnostic purposes.
-# No system settings are modified.
-# ============================================================
+# Dieses Skript dient Lern- und Diagnosezwecken.
+# Es werden keine Systemeinstellungen verändert.
+# ======================
+ 
 
-
-# ============================================================
+# =======================
 # 1. SYSTEM INFORMATION
-# ============================================================
+# ======================
 
 Write-Host "`n===== SYSTEM INFORMATION =====" -ForegroundColor Cyan
 
@@ -26,9 +26,9 @@ Write-Host "Version       : $($OperatingSystem.Version)"
 Write-Host "Architecture  : $($OperatingSystem.OSArchitecture)"
 
 
-# ============================================================
+# ====================
 # 2. CPU INFORMATION
-# ============================================================
+# ====================
 
 Write-Host "`n===== CPU INFORMATION =====" -ForegroundColor Cyan
 
@@ -39,10 +39,9 @@ Write-Host "Cores         : $($CPU.NumberOfCores)"
 Write-Host "Logical CPUs  : $($CPU.NumberOfLogicalProcessors)"
 Write-Host "Current Load  : $($CPU.LoadPercentage)%"
 
-
-# ============================================================
-# 3. MEMORY INFORMATION
-# ============================================================
+# ===========================
+# 3. MEMORY INFORMATION (RAM)
+# ===========================
 
 Write-Host "`n===== MEMORY INFORMATION =====" -ForegroundColor Cyan
 
@@ -66,9 +65,9 @@ Write-Host "Used Memory   : $UsedMemoryGB GB"
 Write-Host "Free Memory   : $FreeMemoryGB GB"
 
 
-# ============================================================
-# 4. DISK INFORMATION
-# ============================================================
+# ============================
+# 4. DATENTRÄGERINFORMATIONEN
+# ============================
 
 Write-Host "`n===== DISK INFORMATION =====" -ForegroundColor Cyan
 
@@ -103,10 +102,9 @@ foreach ($Disk in $Disks) {
     Write-Host "Free          : $FreePercentage%"
 }
 
-
-# ============================================================
-# 5. NETWORK INFORMATION
-# ============================================================
+# ==========================
+#  5. NETZWERKINFORMATIONEN
+# ==========================
 
 Write-Host "`n===== NETWORK INFORMATION =====" -ForegroundColor Cyan
 
@@ -133,9 +131,9 @@ foreach ($Adapter in $NetworkAdapters) {
 }
 
 
-# ============================================================
-# 6. INTERNET CONNECTIVITY TEST
-# ============================================================
+# ============================
+# 6. INTERNET-VERBINDUNGSTEST
+# ============================
 
 Write-Host "`n===== CONNECTIVITY TEST =====" -ForegroundColor Cyan
 
@@ -149,7 +147,6 @@ else {
     Write-Host "Internet Test : FAILED - $TestHost is not reachable" `
         -ForegroundColor Red
 }
-
 
 # ============================================================
 # 7. WINDOWS SERVICES
@@ -175,9 +172,9 @@ foreach ($ServiceName in $ImportantServices) {
 }
 
 
-# ============================================================
-# 8. RECENT SYSTEM ERRORS
-# ============================================================
+# ===========================
+# 8. AKTUELLE SYSTEMFEHLER
+# ===========================
 
 Write-Host "`n===== RECENT SYSTEM ERRORS =====" -ForegroundColor Cyan
 
@@ -203,9 +200,9 @@ else {
 }
 
 
-# ============================================================
-# 9. LAST BOOT TIME
-# ============================================================
+# ========================
+# 9. LETZTER SYSTEMSTART
+# ========================
 
 Write-Host "`n===== SYSTEM UPTIME =====" -ForegroundColor Cyan
 
