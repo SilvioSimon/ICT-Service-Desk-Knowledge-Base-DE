@@ -21,7 +21,7 @@ Sammlung der häufigsten Probleme im Support-Alltag rund um Drucker, Scanner und
 6. [Scan-Probleme (Scan-to-Email / Scan-to-Folder)](#6-scan-probleme-scan-to-email--scan-to-folder)
 7. [USB-Peripheriegeräte werden nicht erkannt](#7-usb-peripheriegeräte-werden-nicht-erkannt)
 8. [Bluetooth- / Wireless-Peripheriegeräte](#8-bluetooth--wireless-peripheriegeräte)
-9. [Remote-Support-Hinweise](#remote-support-hinweise)
+9. [Remote-Support-Hinweise](#9-remote-support-hinweise)
 
 ---
 
@@ -62,11 +62,11 @@ Sammlung der häufigsten Probleme im Support-Alltag rund um Drucker, Scanner und
 
 **Symptom:** Der Drucker wird in Windows als „Offline" angezeigt, obwohl er physisch eingeschaltet und bereit ist, oder er taucht in der Geräteliste gar nicht mehr auf.
 
-**Erfahrungsbericht:** Bei diesem Ticket lohnt sich fast immer zuerst der Griff zum Gerät selbst, statt am PC herumzukonfigurieren: Steht wirklich „Bereit" auf dem Display, oder meldet der Drucker im Hintergrund einen Fehler (Toner, Papier, offene Klappe), den Windows einfach als „Offline" interpretiert? Ein grosser Teil dieser Tickets löst sich, sobald man den Drucker kurz aus- und wieder einsteckt und die Nutzenden direkt bittet, aufs Display zu schauen, statt nur den Windows-Status zu melden.
+**Erfahrungsbericht:** Bei diesem Ticket lohnt sich fast immer zuerst der Griff zum Gerät selbst, statt am PC herumzukonfigurieren: Steht wirklich „Bereit" auf dem Display, oder meldet der Drucker im Hintergrund einen Fehler (Toner, Papier, offene Klappe), den Windows einfach als „Offline" interpretiert? Ein grosser Teil dieser Tickets löst sich, sobald man den Drucker kurz aus- und wieder einschaltet und die Nutzenden direkt bittet, aufs Display zu schauen, statt nur den Windows-Status zu melden.
 
 **Ursachenanalyse:**
 - Physischen Status am Gerät prüfen (Display, Fehlermeldungen, LEDs)
-- Prüfen, ob „Drucker offline verwenden" versehentlich aktiviert ist (`Rechtsklick auf Drucker → Als Standarddrucker offline verwenden`)
+- Prüfen, ob „Drucker offline verwenden" versehentlich aktiviert ist (`Rechtsklick auf Drucker → Drucker offline verwenden`)
 - Bei USB-Anschluss: Kabel und Port wechseln, um ein defektes Kabel auszuschliessen
 - Bei Netzwerkdrucker: prüfen, ob sich die IP-Adresse des Geräts geändert hat (z. B. nach DHCP-Lease-Ablauf)
 
@@ -121,7 +121,7 @@ Sammlung der häufigsten Probleme im Support-Alltag rund um Drucker, Scanner und
 **Symptom:** Ausdrucke sind blass, haben Streifen, falsche Farben oder wiederkehrende Flecken/Muster auf der Seite.
 
 **Ursachenanalyse:**
-- Muster der Fehlerdruckseite anschauen: gleichmässige Streifen deuten meist auf Tonerstand oder Druckkopf hin, wiederkehrende Flecken im gleichen Abstand eher auf eine defekte Trommel/Walze
+- Fehlerbild der Druckseite anschauen: gleichmässige Streifen deuten meist auf Tonerstand oder Druckkopf hin, wiederkehrende Flecken im gleichen Abstand eher auf eine defekte Trommel/Walze
 - Toner-/Tintenstand am Gerät oder über das Web-Interface prüfen
 - Prüfen, ob das Problem bei allen Dokumenten auftritt oder nur bei bestimmten Anwendungen/Dateiformaten
 - Druckereinstellungen (Qualität, Papiertyp) im Treiber kontrollieren
@@ -140,6 +140,7 @@ Sammlung der häufigsten Probleme im Support-Alltag rund um Drucker, Scanner und
 **Eskalation an:** Hardware-Team bzw. Vertragspartner für Geräteservice (bei Leasing-/Wartungsvertrag)
 
 ---
+
 ## 5. Papierstau / Papiereinzugsprobleme
 
 **Priorität:** P4
@@ -202,7 +203,7 @@ Sammlung der häufigsten Probleme im Support-Alltag rund um Drucker, Scanner und
 **Ursachenanalyse:**
 - Prüfen, ob das Gerät an einem anderen USB-Port oder an einem anderen PC funktioniert, um zwischen Geräte- und Portdefekt zu unterscheiden
 - Geräte-Manager (`devmgmt.msc`) auf Fehler-Symbole oder unbekannte Geräte prüfen
-- Bei Docking Stations: prüfen, ob die Dockingstation selbst noch aktuelle Firmware/Treiber hat
+- Bei Docking Stations: prüfen, ob die Docking Station selbst noch aktuelle Firmware/Treiber hat
 - Stromversorgung prüfen, insbesondere bei mehreren gleichzeitig angeschlossenen Geräten über einen USB-Hub
 
 **Lösungsschritte:**
@@ -238,7 +239,7 @@ Sammlung der häufigsten Probleme im Support-Alltag rund um Drucker, Scanner und
 1. Batterie des Geräts prüfen bzw. ersetzen.
 2. Gerät im Bluetooth-Menü entfernen und neu koppeln.
 3. Bluetooth-Treiber über den Geräte-Manager aktualisieren oder neu installieren.
-4. Bei Dongle-Geräten: anderen USB-Port testen, idealerweise ohne direkt neben anderen USB-3.0-Geräten (können Störungen im 2,4-GHz-Band verursachen).
+4. Bei Dongle-Geräten: anderen USB-Port testen, idealerweise nicht direkt neben anderen USB-3.0-Geräten (können Störungen im 2,4-GHz-Band verursachen).
 5. Gerät testweise an einem anderen Arbeitsplatz koppeln, um Umgebungsstörungen auszuschliessen.
 
 **Eskalationskriterien:**
@@ -248,11 +249,11 @@ Sammlung der häufigsten Probleme im Support-Alltag rund um Drucker, Scanner und
 
 ---
 
-## Remote-Support-Hinweise
+## 9. Remote-Support-Hinweise
 
 Bei Drucker- und Peripherieproblemen ist der Anteil an Vor-Ort-Support höher als bei reinen Software-Themen, da viele Ursachen physischer Natur sind (Papierstau, Kabel, Verbrauchsmaterial):
 
-- **Quick Assist / TeamViewer:** geeignet für alle Client-seitigen Schritte (Abschnitte 1, 2, 3, 6, 7 teilweise), z. B. Treiberinstallation, Spooler-Neustart, Portkonfiguration
+- **Quick Assist / TeamViewer:** geeignet für alle Client-seitigen Schritte (Abschnitte 1, 2, 3, 6 und teilweise 7), z. B. Treiberinstallation, Spooler-Neustart, Portkonfiguration
 - **Vor-Ort-Support nötig, wenn:**
   - Verbrauchsmaterial (Toner, Trommel, Papier) physisch geprüft oder ersetzt werden muss (Abschnitte 4, 5)
   - Ein Papierstau oder eine Fehlermeldung direkt am Gerät behoben werden muss (Abschnitt 5)
@@ -260,7 +261,6 @@ Bei Drucker- und Peripherieproblemen ist der Anteil an Vor-Ort-Support höher al
   - Das Gerät über kein erreichbares Web-Interface verfügt und lokale Konfiguration nötig ist
 
 **Faustregel:** Sobald die Ursache am Gerät selbst liegt und nicht am Client oder Netzwerk, lohnt sich meist der direkte Griff zum Vor-Ort-Support – Ferndiagnose bringt hier oft nur eine Verzögerung, bevor am Ende doch jemand vor Ort schauen muss.
-
 
 ---
 
@@ -273,3 +273,4 @@ Bei Drucker- und Peripherieproblemen ist der Anteil an Vor-Ort-Support höher al
 | Datum | Änderung |
 |---|---|
 | 2026-08-07 | Erste Version |
+| 2026-11-19 | Korrekturen: Menüeintrag „Drucker offline verwenden", Formulierungen, Schreibweise „Docking Station", Markdown-Format, Nummerierung Abschnitt 9 |
